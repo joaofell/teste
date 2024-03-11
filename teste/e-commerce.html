@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+
+.img {
+   
+    overflow: hidden; /* Para garantir que a imagem não ultrapasse os limites do contêiner */
+    background-color: aqua;
+}
+
+.img img {
+    width: 100%; /* Garante que a imagem preencha todo o espaço disponível dentro do contêiner */
+    height: 310px; /* Mantém a proporção da imagem */
+    object-fit: cover;
+}
+
+.container{
+    width: 70%;
+}
+
+
+</style>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Minha Loja</a>''
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Produtos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="img"><img src="imagens/0.jpg" class="card-img-top" alt=""></div>
+                <div class="card-body">
+                    <h5 class="card-title">Produto 1</h5>
+                    <p class="card-text">Descrição do Produto 1.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                        </div>
+                        <small class="text-muted"> 2019 </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="img"><img src="imagens/1.jpg" class="card-img-top" alt="..."></div>
+                <div class="card-body">
+                    <h5 class="card-title">Produto 2</h5>
+                    <p class="card-text">Descrição do Produto 2.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                        </div>
+                        <small class="text-muted"> 2022 </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="img"><img src="imagens/2.jpg" class="card-img-top" alt="..."></div>
+                <div class="card-body">
+                    <h5 class="card-title">Produto 3</h5>
+                    <p class="card-text">Descrição do Produto 3.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                        </div>
+                        <small class="text-muted"> 2014 </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="img"><img src="imagens/3.jpg" class="card-img-top" alt=""></div>
+            <div class="card-body">
+                <h5 class="card-title">Produto 1</h5>
+                <p class="card-text">Descrição do Produto 1.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                    </div>
+                    <small class="text-muted"> 2019 </small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/4.jpg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+                <h5 class="card-title">Produto 2</h5>
+                <p class="card-text">Descrição do Produto 2.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                    </div>
+                    <small class="text-muted"> 2022 </small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/5.jpg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+                <h5 class="card-title">Produto 3</h5>
+                <p class="card-text">Descrição do Produto 3.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                    </div>
+                    <small class="text-muted"> 2014 </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/6.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/7.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/8.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/32.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/31.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/30.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/29.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/28.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/27.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/26.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/25.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/24.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/23.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/22.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/21.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/9.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/10.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/11.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/12.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/13.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/14.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/15.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/16.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/17.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/18.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/19.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/20.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/33.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/34.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/35.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/36.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/37.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/38.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/39.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/40.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/41.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/42.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/43.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/44.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <div class="img"><img src="imagens/45.jpg" class="card-img-top" alt=""></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 1</h5>
+            <p class="card-text">Descrição do Produto 1.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2019 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/46.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 2</h5>
+            <p class="card-text">Descrição do Produto 2.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2022 </small>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <div class="img"><img src="imagens/47.jpg" class="card-img-top" alt="..."></div>
+        <div class="card-body">
+            <h5 class="card-title">Produto 3</h5>
+            <p class="card-text">Descrição do Produto 3.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Whatsapp</button>
+                </div>
+                <small class="text-muted"> 2014 </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!-- Rodapé -->
+<footer class="footer mt-auto py-3 bg-light">
+    <div class="container">
+        <span class="text-muted">© 2024 Minha Loja Online</span>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
